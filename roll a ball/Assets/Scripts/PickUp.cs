@@ -13,6 +13,8 @@ public class PickUp : MonoBehaviour
         {
             // then this object dissapears
             Destroy(gameObject);
+
+            GameManager.Instance.UpdateScore(1);
         }
    }
     
