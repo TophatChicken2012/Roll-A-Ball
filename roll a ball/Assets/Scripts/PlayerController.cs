@@ -22,5 +22,6 @@ public class PlayerController : MonoBehaviour
 
         // Move the player based on input
         controller.Move(new Vector3(xInput, 0, zInput) * moveSpeed * Time.deltaTime);
+
     }
 }
